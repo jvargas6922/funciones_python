@@ -57,14 +57,47 @@ Parte 2 – Verificación de tipos
 # Parte 2
 # vamos a llamar a la api de pokemon.
 # la url = https://pokeapi.co/api/v2/pokemon
-import requests
-response = requests.get("https://pokeapi.co/api/v2/pokemon")
-data = response.json()
-print(type(data))
-for pokemon in data["results"]:
-    if(pokemon['name'] == 'raticate'):
-        print(pokemon['name'])
-    # print(isinstance(pokemon, dict))
+# import requests
+# response = requests.get("https://pokeapi.co/api/v2/pokemon")
+# data = response.json()
+# print(type(data))
+# for pokemon in data["results"]:
+#     if(pokemon['name'] == 'raticate'):
+#         print(pokemon['name'])
+#     # print(isinstance(pokemon, dict))
 
+#Parte 3
+# len()
+# numeros = [10,50,5,20,70,30]
+# cantidad_datos = len(numeros)
+# print("La cantidad de datos es:", cantidad_datos)
 
+#list()
+# saludo = "Hola Mundo"
+# lista_saludo = list(saludo)
+# print("Lista saludo:", lista_saludo)
+
+# dict()
+# estudiante = [("nombre", "Ana"), ("edad", 22), ("carrera", "Ingeniería")]
+# print(type(estudiante))
+# dict_estudiante = dict(estudiante)
+# print("Diccionario estudiante:", dict_estudiante)
+
+# tuple()
+# cadena = ["curso", "python"]
+# tupla_cadena = tuple(cadena)
+# print("Tupla cadena:", tupla_cadena)
+
+# print() y input()
+# usuario = input("Ingrese su nombre: ")
+# print("Hola", usuario, "¡Bienvenido al curso de Python!")
+
+# round()
+# nota = 8.77
+# nota_final = round(nota)
+# print("La nota final es:", nota_final)
+
+# range()
+for i in range(1, 6):
+    print("Iteración número:", i)
 
