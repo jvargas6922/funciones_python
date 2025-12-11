@@ -43,9 +43,9 @@ estructura:
 
 """
 
-# numeros = [1,2,3,4,5]
-# pares = list(filter(lambda x: x%2 == 0, numeros))
-# print(f"los numeros pares son: {pares}")
+numeros = [1,2,3,4,5]
+pares = list(filter(lambda x: x%2 == 0, numeros))
+print(f"los numeros pares son: {pares}")
 
 # ejemplo de lambda con varias validaciones
 """
